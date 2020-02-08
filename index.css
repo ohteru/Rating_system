@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+ .Rating {
+  display: inline-flex;
+}
+
+ .Rating__star {
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+ .Rating__star.Rating__star--active {
+  color: #ffd500;
+}
+
+ .Rating.Rating--hover .Rating__star--active {
+  color: #f76b18;
+}
